@@ -1,0 +1,4 @@
+# Hack to create 'empty' directory in git respository.  Ignore everything in this directory
+*
+# Except this file
+!.gitignore
