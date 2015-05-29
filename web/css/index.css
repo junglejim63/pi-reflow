@@ -1,0 +1,71 @@
+/* from http://stackoverflow.com/questions/19698925/how-to-set-height-and-border-of-bootstrap-tabs */
+.nav-tabs > li > a
+{
+    /* adjust padding for height*/
+   margin-left: 0px;
+   margin-right: 0px;
+   padding-top: 2px; 
+   padding-bottom: 2px;
+}
+/* from http://stackoverflow.com/questions/22920589/bootstrap-3-input-xs-smaller-than-sm */
+.input-xs {
+    height: 22px;
+    padding: 2px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    }
+
+.select-xs {
+  height: 22px;
+  padding: 2px 5px;
+  font-size: 10px;
+  line-height: 1;
+  border-radius: 3px;
+}
+    .input-group-xs>.form-control,
+.input-group-xs>.input-group-addon,
+.input-group-xs>.input-group-btn>.btn {
+    height: 22px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+hr.xs {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.status-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 30px;
+  color: #000;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.750);
+  border-radius: 5px 5px 5px 5px;
+  background: linear-gradient(to top, rgba(226,226,226,1) 0%, rgba(219,219,219,1) 50%, rgba(209,209,209,1) 51%, rgba(254,254,254,1) 100%);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* From https://angular-ui.github.io/bootstrap/ */
+.nav, .pagination, .carousel, .panel-title a {
+   cursor: pointer;
+}
+
+.nav-xs {
+  font-size: 12px;
+}
+
+div.config-entries {
+   padding-right: 5px;
+   padding-left: 5px;
+   font-size: 12px;
+   line-height: 1.2;
+}
+
+div.remainder {
+   height: 100%;
+}
+   

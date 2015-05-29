@@ -1,0 +1,21 @@
+{
+"Cycles": ["Lead", "SlowLead", "Lead-free"],
+"Lead": {"name": "Lead (Sn63 Pb37)", "liquidus": 183, "order": ["Preheat", "Soak", "Heat", "Reflow", "Cool"],
+            "steps": {"Preheat": {"Tend": 125, "Ramp": 3},
+                    "Soak": {"Tend": 180, "Duration": 75},
+                    "Heat": {"Tend": 220, "Ramp": 4},
+                    "Reflow": {"Tend": 220, "Duration": 20},
+                    "Cool": {"Tend": 30,  "Ramp": -4}}},
+"SlowLead": {"name": "Slow Lead (Sn63 Pb37)", "liquidus": 183, "order": ["Preheat", "Soak", "Heat", "Reflow", "Cool"],
+            "steps": {"Preheat": {"Tend": 150, "Ramp": 1},
+                    "Soak": {"Tend": 180, "Duration": 75},
+                    "Heat": {"Tend": 240, "Ramp": 10},
+                    "Reflow": {"Tend": 240, "Duration": 30},
+                    "Cool": {"Tend": 30,  "Ramp": -4}}},
+"Lead-free": {"name": "Lead-free (SAC305)", "liquidus": 219, "order": ["Preheat", "Soak", "Heat", "Reflow", "Cool"],
+            "steps": {"Preheat": {"Tend": 150, "Ramp": 3},
+                    "Soak": {"Tend": 180, "Duration": 120},
+                    "Heat": {"Tend": 245, "Ramp": 2},
+                    "Reflow": {"Tend": 245, "Duration": 15},
+                    "Cool": {"Tend": 30,  "Ramp": -4}}}
+}
